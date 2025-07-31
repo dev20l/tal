@@ -28,7 +28,7 @@
         var username = $("input").val();
 
         $.ajax({
-            url: `https://theclassicswing.com/api/picture.php?username=${username}`,
+            url: ``,
             method: "GET",
             success: function (response) {
                 if (response["Found"] && response["Found"] == "OK") {
