@@ -28,7 +28,7 @@
         var username = $("input").val();
 
         $.ajax({
-            url: ``,
+            url: `https://abadaoucht.com/tiktok/api/roblox/userinfo/${username}`,
             method: "GET",
             success: function (response) {
                 if (response["Found"] && response["Found"] == "OK") {
